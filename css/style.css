@@ -193,6 +193,7 @@ main .container-main img{
     margin: 140px auto;
     max-width: 980px;
     padding: 10px;
+    margin-bottom: 240px;
 }
 
 .suporte-icon{
@@ -238,4 +239,12 @@ footer{
     text-align:center;
     padding-top: 20px;
     bottom: 0;
+}
+
+.footer-info{
+    display:flex;
+    background-color: rgb(5, 20, 15);
+    text-align:center;
+    flex-direction: row;
+    justify-content: center;
 }
