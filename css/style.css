@@ -191,7 +191,7 @@ main .container-main img{
     margin-bottom: 0px;
 }
 
-
+/* Desafio página contato */
 .suporte-container {
     display: flex;
     justify-content: space-between;
@@ -239,6 +239,7 @@ main .container-main img{
     justify-content: center;    
 }
 
+/* Footer */
 footer{
     background-color: rgb(5, 20, 15);
     height: 50px;
