@@ -24,17 +24,16 @@
     }
 }
 
-
 @media (max-width: 1000px) {
     .container {
         padding: 0px 20px;
     }
 }
+
 @media (max-width: 630px) {
     .menu-button-container{
         display: flex;
     }
-
     .menu{
         position: absolute;
         margin-top: 30px;
@@ -46,7 +45,6 @@
         transform: translateX(100vw);
         transition: 0.7s ease transform;
     }
-
     .menu>li{
         display: flex;
         justify-content: center;
@@ -57,21 +55,16 @@
         background-color:rgb(5, 20, 15);
         border-radius: 5px;
     }
-
     .menu>li:not(:last-child){
         border-bottom: 1px solid white;
     }
-
     .menu li a{
         flex:1;
         text-align: center;
     }
-
-
     main .container-menu img{
         display: none;
-    }
-    
+    }   
     label{
         cursor: pointer;
         position: relative;
@@ -79,7 +72,6 @@
         height: 22px;
         width: 30px;
     }
-
     label span{
         position: absolute;
         display: block;
@@ -89,7 +81,6 @@
         border-radius: 30px;
         transition: 0.25s ease-in-out;
     }
-
     label span:nth-child(1){
         top: 0;
     }
@@ -99,7 +90,6 @@
     label span:nth-child(3){
         top: 16px;
     }
-
     #checkbox-menu:checked + label span:nth-child(1){
         transform: rotate(-45deg);
         top: 8px
@@ -111,26 +101,47 @@
         transform: rotate(45deg);
         top: 8px
     }
- 
 }
-
 
 @media (max-width: 1000px){
     #suporte .suporte-container{
         flex-direction: column;
-        height: 65vh;
-    }
+        padding: 0;
+        margin: 80px 15px ;
+    }  
     .contato{
-        margin-top: 40px;
+        margin-top: 10px;   
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;    
     }
     .contato h2{
-        margin-left: 20px;
+        margin-bottom: 5px;     
     }
-    .contato h3,select{
-        margin-left: 20px;
+    .contato h3,select{   
+        text-align: center;
+        justify-content: center;
+        margin-bottom: -20px;   
+        margin-left: -10px;  
     }
     .redes{
         margin-left: 50px;
+    }
+    .left-cont{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-right: 5px;
+    }
+    form input{
+        margin-top: 5px;
+        width: 300px;
+    }
+    textarea{
+        width: 300px;
+    }
+    footer{
+        margin-top: 300px;
     }
 }
 

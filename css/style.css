@@ -19,7 +19,6 @@ body {
 }
 
 /* HEADER */
-
 header{
     background-color: rgb(5, 20, 15);
 }
@@ -199,8 +198,7 @@ main .container-main img{
     align-items: center;
     margin: 140px auto;
     max-width: 980px;
-    padding: 10px;
-    margin-bottom: 240px;
+    padding: 100px;
 }
 
 .suporte-icon{
@@ -231,6 +229,7 @@ main .container-main img{
 
 .contato{
     margin-left: 20px;
+    padding-left: 70px;
 }
 
 .redes{
@@ -241,8 +240,8 @@ main .container-main img{
 
 /* Footer */
 footer{
+    margin-top: 200px;
     background-color: rgb(5, 20, 15);
-    height: 50px;
     color:#70AD47;
     text-align:center;
     padding-top: 20px;
@@ -253,6 +252,6 @@ footer{
     display:flex;
     background-color: rgb(5, 20, 15);
     text-align:center;
-    flex-direction: row;
     justify-content: center;
+    
 }
